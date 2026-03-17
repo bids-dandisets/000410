@@ -6,24 +6,43 @@ Valid keys in each object include `"URL"`, `"DOI"` (see
 `"Version"` with
 [string](https://www.w3schools.com/js/js_json_datatypes.asp)
 values.
-
+ - rules.dataset_metadata.dataset_description
 
 	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.
 
 	[ERROR] TSV_VALUE_INCORRECT_TYPE A value in a column did not match the acceptable type for that column headers specified format.
 		session_id
-		/sub-Lotus/sub-Lotus_sessions.tsv - 'ses-Lotus_01'
-		/sub-Jaq/sub-Jaq_sessions.tsv - 'ses-jaq_01'
-
-		3 more files with the same issue
+		/sub-Lotus/sub-Lotus_sessions.tsv - 'ses-Lotus_01' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-Jaq/sub-Jaq_sessions.tsv - 'ses-jaq_01' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-Monty/sub-Monty_sessions.tsv - 'ses-Monty_01' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-Peanut/sub-Peanut_sessions.tsv - 'ses-Peanut_01' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-Roqui/sub-Roqui_sessions.tsv - 'ses-Roqui_01' - rules.tabular_data.modality_agnostic.Sessions
 
 	Please visit https://neurostars.org/search?q=TSV_VALUE_INCORRECT_TYPE for existing conversations about this issue.
 
 	[ERROR] NOT_INCLUDED Files with such naming scheme are not part of BIDS specification. This error is most commonly caused by typos in file names that make them not BIDS compatible. Please consult the specification and make sure your files are named correctly. If this is not a file naming issue (for example when including files not yet covered by the BIDS specification) you should include a ".bidsignore" file in your dataset (see https://github.com/bids-standard/bids-validator#bidsignore for details). Please note that derived (processed) data should be placed in /derivatives folder and source data (such as DICOMS or behavioural logs in proprietary formats) should be placed in the /sourcedata folder.
 		/sub-Lotus/ses-Lotus_02/
 		/sub-Lotus/ses-Lotus_04/
-
-		20 more files with the same issue
+		/sub-Lotus/ses-Lotus_01/
+		/sub-Lotus/ses-Lotus_06/
+		/sub-Lotus/ses-Lotus_05/
+		/sub-Jaq/ses-jaq_03/
+		/sub-Jaq/ses-jaq_02/
+		/sub-Jaq/ses-jaq_01/
+		/sub-Jaq/ses-jaq_04/
+		/sub-Monty/ses-Monty_02/
+		/sub-Monty/ses-Monty_05/
+		/sub-Monty/ses-Monty_03/
+		/sub-Monty/ses-Monty_04/
+		/sub-Monty/ses-Monty_01/
+		/sub-Peanut/ses-Peanut_01/
+		/sub-Peanut/ses-Peanut_02/
+		/sub-Roqui/ses-Roqui_04/
+		/sub-Roqui/ses-Roqui_02/
+		/sub-Roqui/ses-Roqui_05/
+		/sub-Roqui/ses-Roqui_03/
+		/sub-Roqui/ses-Roqui_01/
+		/sub-Roqui/ses-Roqui_06/
 
 	Please visit https://neurostars.org/search?q=NOT_INCLUDED for existing conversations about this issue.
 
